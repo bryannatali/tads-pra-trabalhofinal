@@ -1,0 +1,21 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+
+  padding: 3rem;
+}
+
+.home-container a {
+  text-decoration: none;
+
+  background: purple;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 4px;
+  font-size: 2rem;
+  font-weight: bold;
+
+  align-self: flex-start;
+
+  margin-top: 2rem;
+}

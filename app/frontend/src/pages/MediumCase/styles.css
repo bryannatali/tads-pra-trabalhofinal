@@ -1,0 +1,39 @@
+.medium-case-container {
+  display: flex;
+  flex-direction: column;
+
+  padding: 3rem;
+}
+
+.medium-case-container header {
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 80px;
+}
+
+.medium-case-container header a {
+  text-decoration: none;
+
+  color: rgb(182, 53, 182);
+  font-size: 2rem;
+  font-weight: bold;
+
+  display: flex;
+  align-self: center;
+  justify-content: center;
+
+  filter: brightness(0.9);
+}
+
+.medium-case-container header a:hover {
+  color: rgb(163, 41, 163);
+}
+
+.medium-case-container header a svg {
+  margin-right: 0.5rem;
+}
+
+.medium-case-container h1 {
+  margin-left: 1rem;
+}
